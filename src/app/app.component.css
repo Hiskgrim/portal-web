@@ -1,0 +1,41 @@
+.navbar{
+    background: #ed1c27;    
+}
+
+.content{
+    margin-top: 50px;    
+}
+
+.content:before{
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0; 
+    right: 0;   
+    background-color: white;    
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.content:after{
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0; 
+    right: 0;  
+    background-color: white;    
+    z-index: -1;
+}
+
+.dropdown-menu{
+    width: 300px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+

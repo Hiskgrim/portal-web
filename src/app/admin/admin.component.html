@@ -1,0 +1,19 @@
+<div class="container-fluid">    
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-center">Academia Comercial</h1>
+        <ul>
+            <li *ngFor="let curso of cursos">
+                <div class="card">
+                    <img src="https://i.udemycdn.com/course/240x135/1265942_7e2f_8.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">{{curso.nombre}}</h5>
+                      <p class="card-text">{{curso.descripcion}}</p>
+                      <a href="#" class="btn btn-primary btn-home-custom">Ver</a>
+                    </div>
+                  </div>
+            </li>
+        </ul>
+      </div>
+    </div>
+</div>

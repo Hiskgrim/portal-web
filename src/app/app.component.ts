@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portal-web';
+  showLogin = true;
+
+  public funcShowlogin(event){
+    this.showLogin = event;
+  }
+
+  
 }

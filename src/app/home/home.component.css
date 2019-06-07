@@ -1,0 +1,21 @@
+.d-block{
+    width: 100%;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    width: 50%;    
+}
+
+.btn-home-custom{
+    margin-left: 100px;
+    background-color: #ed1c27;
+    border-color: transparent;    
+}
+
+.btn-home-custom:hover{
+    background-color: white;
+    border-color: #ed1c27;
+    color: #ed1c27;
+}
