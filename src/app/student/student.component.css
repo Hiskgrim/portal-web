@@ -4,3 +4,16 @@ li{
     widows: 30%;
     margin: 1%;
 }
+
+.talento{
+    background-color: teal;
+}
+
+.administrativa{
+    background-color: sienna;
+}
+
+
+.analitica{
+    background-color: royalblue;
+}

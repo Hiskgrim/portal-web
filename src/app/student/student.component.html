@@ -4,7 +4,7 @@
         <h1 class="text-center">Academia Comercial</h1>
         <ul>
             <li *ngFor="let curso of cursos">
-                <div class="card">
+                <div class="card" [ngClass] = "{'talento': curso.tipo == 'Facultad de Talento Humano', 'administrativa': curso.tipo == 'Facultad Administrativa', 'analitica': curso.tipo == 'Facultad de Analitica'}">
                     <img src="https://i.udemycdn.com/course/240x135/1265942_7e2f_8.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                       <h5 class="card-title">{{curso.nombre}}</h5>
